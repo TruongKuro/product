@@ -1,0 +1,12 @@
+.no-underline {
+  text-decoration: none;
+}
+
+.h-title {
+  height: 50px;
+  display: -webkit-box;        /* Bố cục dạng khối */
+  -webkit-line-clamp: 2;       /* Giới hạn 3 dòng */
+  -webkit-box-orient: vertical; /* Hướng khối dọc */
+  overflow: hidden;            /* Ẩn phần nội dung tràn */
+  text-overflow: ellipsis; 
+}
